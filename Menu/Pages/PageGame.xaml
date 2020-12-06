@@ -9,7 +9,7 @@
       Title="PageGame">
 
     <Grid Background="Black">
-        <ListView  ScrollViewer.HorizontalScrollBarVisibility="Disabled"  x:Name="ListGame" Background="Transparent" BorderThickness="0">
+        <ListView SelectionChanged="ListGame_SelectionChanged" Margin="10 10 10 10"  ScrollViewer.HorizontalScrollBarVisibility="Disabled"  x:Name="ListGame" Background="Transparent" BorderThickness="0">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Width="170" Margin=" 5 5 5 5">

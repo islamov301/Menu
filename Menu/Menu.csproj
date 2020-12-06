@@ -55,6 +55,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Pages\PageEn.xaml.cs">
+      <DependentUpon>PageEn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageFile.xaml.cs">
+      <DependentUpon>PageFile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageLoding.xaml.cs">
+      <DependentUpon>PageLoding.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowDescription.xaml.cs">
+      <DependentUpon>WindowDescription.xaml</DependentUpon>
+    </Compile>
     <Page Include="Pages\PageData.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -63,7 +75,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\PageEn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageFile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\PageGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageLoding.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -90,6 +114,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Windows\WindowDescription.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -166,6 +194,11 @@
     <Resource Include="Images\Games\Minecraft.png" />
     <Resource Include="Images\Games\SpiderMen.png" />
     <Resource Include="Images\Games\WorldOfWarcraft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\File\Rar.png" />
+    <Resource Include="Images\File\Txt.png" />
+    <Resource Include="Images\File\Zip.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

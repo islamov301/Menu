@@ -12,28 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Menu.Models;
-using Menu.Windows;
 
 namespace Menu.Pages
 {
     /// <summary>
-    /// Interaction logic for PageDoc.xaml
+    /// Interaction logic for PageEn.xaml
     /// </summary>
-    public partial class PageDoc : Page
+    public partial class PageEn : Page
     {
-        public PageDoc()
+        public PageEn()
         {
             InitializeComponent();
-            ListDoc.ItemsSource = Item.DocItems();
-        }
-
-        private void ListDoc_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            ListView list = sender as ListView;
-            Item item = list.SelectedItem as Item;
-            var w1 = new WindowDescription(item);
-            w1.ShowDialog();
         }
     }
 }

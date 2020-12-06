@@ -18,17 +18,17 @@ using Menu.Windows;
 namespace Menu.Pages
 {
     /// <summary>
-    /// Interaction logic for PageDoc.xaml
+    /// Interaction logic for PageFile.xaml
     /// </summary>
-    public partial class PageDoc : Page
+    public partial class PageFile : Page
     {
-        public PageDoc()
+        public PageFile()
         {
             InitializeComponent();
-            ListDoc.ItemsSource = Item.DocItems();
+            ListFile.ItemsSource = Item.FileItems();
         }
 
-        private void ListDoc_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void ListFile_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ListView list = sender as ListView;
             Item item = list.SelectedItem as Item;

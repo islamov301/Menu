@@ -19,3 +19,11 @@ C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Pages\PageDoc.g.cs
 C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Pages\PageDoc.baml
 C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Pages\PageGame.g.cs
 C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Pages\PageGame.baml
+C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Windows\WindowDescription.g.cs
+C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Windows\WindowDescription.baml
+C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Pages\PageFile.g.cs
+C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Pages\PageFile.baml
+C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Pages\PageEn.g.cs
+C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Pages\PageLoding.g.cs
+C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Pages\PageEn.baml
+C:\Users\ruste\source\repos\Menu\Menu\obj\Debug\Pages\PageLoding.baml

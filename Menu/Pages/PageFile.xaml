@@ -1,4 +1,4 @@
-﻿<Page x:Class="Menu.Pages.PageDoc"
+﻿<Page x:Class="Menu.Pages.PageFile"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,10 +6,10 @@
       xmlns:local="clr-namespace:Menu.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="PageDoc">
+      Title="PageFile">
 
     <Grid Background="Black">
-        <ListView SelectionChanged="ListDoc_SelectionChanged" x:Name="ListDoc" Background="Transparent" BorderThickness="0">
+        <ListView SelectionChanged="ListFile_SelectionChanged" x:Name="ListFile" Background="Transparent" BorderThickness="0">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left"></StackPanel>

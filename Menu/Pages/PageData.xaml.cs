@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Menu.Models;
+using Menu.Windows;
 
 namespace Menu.Pages
 {
@@ -25,6 +26,14 @@ namespace Menu.Pages
         {
             InitializeComponent();
             ListData.ItemsSource = Item.DataItems();
+        }
+
+        private void ListData_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ListView list = sender as ListView;
+            Item item = list.SelectedItem as Item;
+            var w1 = new WindowDescription(item);
+            w1.ShowDialog();
         }
     }
 }

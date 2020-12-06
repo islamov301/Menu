@@ -31,6 +31,7 @@ namespace Menu
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             GetItem.Frame = GlobalFrame;
+            GetItem.Frame.Navigate(new PageLoding());
         }
 
         private void ListItem_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -48,6 +49,14 @@ namespace Menu
             else if (item.NameItem =="Игры")
             {
                 GetItem.Frame.Navigate(new PageGame());
+            }
+            else if (item.NameItem == "Файлы")
+            {
+                GetItem.Frame.Navigate(new PageFile());
+            }
+            else if (item.NameItem == "Англиский язык")
+            {
+                GetItem.Frame.Navigate(new PageEn());
             }
         }
     }

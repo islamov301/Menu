@@ -9,7 +9,7 @@
       Title="PageData">
 
     <Grid Background="Black">
-        <ListView x:Name="ListData" Background="Transparent" BorderThickness="0">
+        <ListView SelectionChanged="ListData_SelectionChanged" x:Name="ListData" Background="Transparent" BorderThickness="0">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left"></StackPanel>
